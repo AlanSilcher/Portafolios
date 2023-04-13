@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 
-const Landing = () => {
+export default function Landing ()  {
     return (
         <div >
         <h1>Welcome</h1>
@@ -10,5 +10,3 @@ const Landing = () => {
         </div>
     )
 }
-
-export default Landing
