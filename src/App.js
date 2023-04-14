@@ -8,7 +8,6 @@ import Achievements from './Pages/Achievements/Achievements';
 import Certifications from './Pages/Certifications/Certifications';
 import Contact from './Pages/Contact/Contact';
 import Reviews from './Pages/Reviews/Reviews';
-import Navbar from './Components/Navbar/Navbar';
 import Dashboard from './Components/Dashboard/Dashboard';
 
 function App() {
