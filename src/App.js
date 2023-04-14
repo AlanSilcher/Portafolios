@@ -1,6 +1,6 @@
 import './App.css';
 import { Route } from 'react-router-dom'
-import Home from './Pages/Home/Home';
+import Me from './Pages/Me/Me';
 import Projects from './Pages/Projects/Projects';
 import Solutions from "./Pages/Solutions/Solutions"
 import Technologies from './Pages/Technologies/Technologies';
@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Route path="/home"><Home/></Route>
+      <Route path="/me"><Me/></Route>
       <Route path="/solutions"><Solutions/></Route>
       <Route path="/projects"><Projects/></Route>
       <Route path="/technologies"><Technologies/></Route>
