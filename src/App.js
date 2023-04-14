@@ -15,6 +15,7 @@ function App() {
   return (
     <div className="App">
       <Navbar/>
+      <Route exact path="/"><Me/></Route>
       <Route path="/me"><Me/></Route>
       <Route path="/solutions"><Solutions/></Route>
       <Route path="/projects"><Projects/></Route>
