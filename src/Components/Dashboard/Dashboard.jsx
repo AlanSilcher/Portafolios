@@ -31,7 +31,7 @@ const NavWrapper = styled.div`
   background-color: transparent;
 `;
 
-export default function Dashboard() {
+export default function Navbar() {
   const location = useLocation();
 
   return (
