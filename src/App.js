@@ -9,11 +9,12 @@ import Certifications from './Pages/Certifications/Certifications';
 import Contact from './Pages/Contact/Contact';
 import Reviews from './Pages/Reviews/Reviews';
 import Navbar from './Components/Navbar/Navbar';
+import Dashboard from './Components/Dashboard/Dashboard';
 
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      <Dashboard />
       <Route exact path="/"><Me/></Route>
       <Route path="/me"><Me/></Route>
       <Route path="/solutions"><Solutions/></Route>
