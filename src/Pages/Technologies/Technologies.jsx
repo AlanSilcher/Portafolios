@@ -10,7 +10,7 @@ import expressPng from './Images/Express2.png'
 import postgresPng from './Images/postgres.png'
 import gitPng from './Images/git.png'
 import sequelizePng from './Images/Sequelize.png'
-import { Container, Row, Col } from "react-grid-system";
+import { Row, Col } from "react-grid-system";
 
 export default function Technologies() {
   return (
