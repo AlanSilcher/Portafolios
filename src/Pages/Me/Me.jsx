@@ -37,7 +37,9 @@ export default function Me() {
                             <p className={styles.largeText}>
                                 Soy un apasionado programador especializado en JavaScript, con experiencia en el desarrollo web. Siempre estoy en busca de oportunidades laborales para aplicar mis habilidades y conocimientos en proyectos interesantes y desafiantes. Me encanta aprender constantemente y mantenerme actualizado con las últimas tecnologías y mejores prácticas en el mundo del desarrollo web.
                             </p>
+                            <Link to="/contact">
                             <Button href="/contact" variant="contained" color="success">Contacto</Button>
+                            </Link>
                         </div>
                     </Grid>
                 </Grid>
