@@ -3,6 +3,7 @@ import styles from './Me.module.css';
 import { Button, Container, Grid } from '@material-ui/core';
 import Icon from '@mdi/react';
 import { mdiClock, mdiBriefcase, mdiMedal } from '@mdi/js';
+import { Link } from 'react-router-dom';
 import profilePhoto from './Image/Cat.jpg'
 
 
@@ -38,7 +39,7 @@ export default function Me() {
                                 Soy un apasionado programador especializado en JavaScript, con experiencia en el desarrollo web. Siempre estoy en busca de oportunidades laborales para aplicar mis habilidades y conocimientos en proyectos interesantes y desafiantes. Me encanta aprender constantemente y mantenerme actualizado con las últimas tecnologías y mejores prácticas en el mundo del desarrollo web.
                             </p>
                             <Link to="/contact">
-                            <Button href="/contact" variant="contained" color="success">Contacto</Button>
+                            <Button variant="contained" color="success">Contacto</Button>
                             </Link>
                         </div>
                     </Grid>
