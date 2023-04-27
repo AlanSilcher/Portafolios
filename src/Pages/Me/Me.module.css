@@ -1,0 +1,30 @@
+
+.titulo {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 50px;
+}
+
+
+.cardContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+
+.card {
+    flex-basis: 15%; 
+    padding: 25px;
+    border: 1px solid #ccc;
+    width: 60px;
+    height: 110px;   
+  }
+  
+
+
+.largeText {
+    flex-grow: 1;
+    padding: 20px;
+    font-size: 25px;
+}

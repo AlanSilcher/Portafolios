@@ -1,64 +1,55 @@
 .container {
-    padding-top: 50px; 
-  }
-  
-  .contactTitle {
-    margin-bottom: 150px;
-  }
-  
-  .iconContainer {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 50px; 
-      margin: 0 auto; 
-    }
-    
-    .icon {
-      font-size: 50px;
-      color: #050202; 
-      padding: 10px; 
-      background-color: #FFC0CB; 
-      border-radius: 8px; 
-    }
-    
-    .contactInfoContainer {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      margin-bottom: 16px;
-    }
-    
-    .contactInfo {
-      display: flex;
-      align-items: center;
-      margin-right: 16px;
-      margin-bottom: 10px;
-    }
-    
-    .contactIcon {
-      margin-right: 8px;
-      color: rgb(84, 84, 251);
-    }
-    
-    .contactText {
-      font-size: 25px;
-    }
-    
-    .columnsContainer {
+  padding-top: 50px; 
+}
+
+.contactTitle {
+  margin-bottom: 150px;
+}
+
+.iconContainer {
     display: flex;
-    justify-content: space-between;
-    margin-top: 50px;
+    align-items: center;
+    justify-content: center;
+    gap: 50px; 
+    margin: 0 auto; 
   }
   
-  .column {
-    flex-basis: 50%;
-    padding: 0 16px;
+  .icon {
+    font-size: 50px;
+    color: #050202; 
+    padding: 10px; 
+    background-color: #FFC0CB; 
+    border-radius: 8px; 
   }
-    
+  
+  .contactInfoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .contactInfo {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .contactIcon {
+    margin-right: 8px;
+    color: rgb(84, 84, 251);
+  }
+  
+  .contactText {
+    font-size: 25px;
+  }
+  
+
+  
+
+
+   
   
   
-     
-    
-    
