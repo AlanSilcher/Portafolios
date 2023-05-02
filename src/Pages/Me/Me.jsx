@@ -23,7 +23,7 @@ export default function Me() {
                     <div class="cards-list">
   
                     <div class="card 1">
-                    <div class="card_image"> <img src="https://www.colorhexa.com/262624.png" /> </div>
+                    <div class="card_image"> <img src="https://www.colorhexa.com/262624.png" alt="profile photo"/> </div>
                     <div class="card_title title-white">
                     <Icon path={mdiMedal} size={2} />
                     <p>Experiencia</p>
