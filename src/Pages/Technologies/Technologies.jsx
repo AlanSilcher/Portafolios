@@ -27,7 +27,7 @@ export default function Technologies() {
         <Col sm={2}>
   <figure class="chart" data-percent="50">
     <figcaption>HTML</figcaption>
-     <img class="html" src={htmlPng}/>
+     <img class="html" src={htmlPng} alt='html'/>
     <svg width="200" height="200">
       <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
     </svg>
@@ -37,7 +37,7 @@ export default function Technologies() {
   <Col sm={2}>
   <figure class="chart" data-percent="50">
     <figcaption>CSS</figcaption>
-    <img class="css" src={cssPng}/>
+    <img class="css" src={cssPng} alt='css'/>
     <svg width="200" height="200">
       <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
     </svg>
@@ -47,7 +47,7 @@ export default function Technologies() {
   <Col sm={2}>
   <figure class="chart" data-percent="75">
     <figcaption>Javascript</figcaption>
-    <img class="javascript" src={jsPng}/>
+    <img class="javascript" src={jsPng} alt='js'/>
     <svg width="200" height="200">
       <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
     </svg>
@@ -57,7 +57,7 @@ export default function Technologies() {
   <Col sm={2}>
   <figure class="chart" data-percent="50">
     <figcaption>React</figcaption>
-    <img class="react" src={reactPng}/>
+    <img class="react" src={reactPng} alt='react'/>
     <svg width="200" height="200">
       <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
     </svg>
@@ -67,7 +67,7 @@ export default function Technologies() {
   <Col sm={2}>
   <figure class="chart" data-percent="50">
     <figcaption>Redux</figcaption>
-    <img class="redux" src={reduxPng}/>
+    <img class="redux" src={reduxPng} alt='redux'/>
     <svg width="200" height="200">
       <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
     </svg>
@@ -81,7 +81,7 @@ export default function Technologies() {
         <Col sm={2}>
   <figure class="chart" data-percent="50">
     <figcaption>Node</figcaption>
-    <img class="node" src={nodePng}/>
+    <img class="node" src={nodePng} alt='node'/>
     <svg width="200" height="200">
       <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
     </svg>
@@ -91,7 +91,7 @@ export default function Technologies() {
   <Col sm={2}>
   <figure class="chart" data-percent="25">
     <figcaption>Express</figcaption>
-    <img class="express" src={expressPng}/>
+    <img class="express" src={expressPng} alt='express'/>
     <svg width="200" height="200">
       <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
     </svg>
@@ -101,7 +101,7 @@ export default function Technologies() {
   <Col sm={2}>
   <figure class="chart" data-percent="75">
     <figcaption>Postgres</figcaption>
-    <img class="postgres" src={postgresPng}/>
+    <img class="postgres" src={postgresPng} alt='postgres'/>
     <svg width="200" height="200">
       <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
     </svg>
@@ -111,7 +111,7 @@ export default function Technologies() {
   <Col sm={2}>
   <figure class="chart" data-percent="50">
     <figcaption>Sequelize</figcaption>
-    <img class="sequelize" src={sequelizePng}/>
+    <img class="sequelize" src={sequelizePng} alt='sequelize'/>
     <svg width="200" height="200">
       <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
     </svg>
@@ -122,7 +122,7 @@ export default function Technologies() {
   <Col sm={2}>
   <figure class="chart" data-percent="50">
     <figcaption>Git</figcaption>
-    <img class="git" src={gitPng}/>
+    <img class="git" src={gitPng} alt='git'/>
     <svg width="200" height="200">
       <circle class="outer" cx="95" cy="95" r="85" transform="rotate(-90, 95, 95)"/>
     </svg>
