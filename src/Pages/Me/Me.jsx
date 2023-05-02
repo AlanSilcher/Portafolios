@@ -45,7 +45,7 @@ export default function Me() {
 
                     <div class="card 3">
                     <div class="card_image">
-                    <img src="https://www.colorhexa.com/262624.png" />
+                    <img src="https://www.colorhexa.com/262624.png" alt='color'/>
                     </div>
                     <div class="card_title">
                     <Icon path={mdiClock} size={2} />
