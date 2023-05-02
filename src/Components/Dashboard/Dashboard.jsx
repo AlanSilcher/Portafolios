@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faEnvelope, faLightbulb, faCode, faDesktop, faStarHalfAlt, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faEnvelope, faLightbulb, faCode, faDesktop, faGraduationCap } from '@fortawesome/free-solid-svg-icons';
 import logo from './Image/Logo.png'
 
 
