@@ -23,7 +23,7 @@ export default function Me() {
                     <div class="cards-list">
   
                     <div class="card 1">
-                    <div class="card_image"> <img src="https://www.colorhexa.com/262624.png" alt="profile"/> </div>
+                    <div class="card_image"> <img src="https://www.colorhexa.com/262624.png" alt="me photo"/> </div>
                     <div class="card_title title-white">
                     <Icon path={mdiMedal} size={2} />
                     <p>Experiencia</p>
@@ -45,7 +45,7 @@ export default function Me() {
 
                     <div class="card 3">
                     <div class="card_image">
-                    <img src="https://www.colorhexa.com/262624.png" alt="color"/>
+                    <img src="https://www.colorhexa.com/262624.png" alt="color fill"/>
                     </div>
                     <div class="card_title">
                     <Icon path={mdiClock} size={2} />
