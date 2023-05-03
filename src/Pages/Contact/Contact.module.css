@@ -22,9 +22,15 @@
     font-size: 50px;
     color: #050202; 
     padding: 10px; 
-    background-color: #D9042B;; 
+    background-color: #D9042B; 
     border-radius: 8px; 
   }
+
+  .icon:hover {
+    background-color: #fff;
+    color: #D9042B;
+  }
+
   
   .contactInfoContainer {
     display: flex;
