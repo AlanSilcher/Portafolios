@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './Technologies.module.css';
 import htmlPng from './Images/html5.png';
 import cssPng from './Images/css.png'
 import reactPng from './Images/react.png'
@@ -15,10 +14,10 @@ import './Technologies.css'
 
 export default function Technologies() {
   return (
-    <div className={styles.container}>
+    <div class="container">
       
-      <h1 className={styles.title}>
-      <span className={styles["title-word"]}>Mi Experiencia</span>
+      <h1 class="title">
+      <span class="title">Mi Experiencia</span>
       </h1>
 
   <section class="container">
