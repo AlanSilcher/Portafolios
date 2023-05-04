@@ -14,17 +14,17 @@ import './Technologies.css'
 
 export default function Technologies() {
   return (
-    <div class="container">
+    <div className="landing-container">
       
       <h1 class="title">
       <span class="title">Mi Experiencia</span>
       </h1>
 
-  <section class="container">
+  
   <Row>
       <Col sm={1}></Col> 
         <Col sm={2}>
-  <figure class="chart" data-percent="50">
+  <figure class="chart" data-percent="75">
     <figcaption>HTML</figcaption>
      <img class="html" src={htmlPng} alt='html'/>
     <svg width="200" height="200">
@@ -34,7 +34,7 @@ export default function Technologies() {
   </Col>
 
   <Col sm={2}>
-  <figure class="chart" data-percent="50">
+  <figure class="chart" data-percent="75">
     <figcaption>CSS</figcaption>
     <img class="css" src={cssPng} alt='css'/>
     <svg width="200" height="200">
@@ -129,7 +129,6 @@ export default function Technologies() {
   </Col>
   <Col sm={1}></Col>
 </Row>
-</section>
     </div>
   );
 }

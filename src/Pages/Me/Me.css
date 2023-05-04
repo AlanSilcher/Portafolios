@@ -92,11 +92,11 @@
   color: red;
 }
 
-.container {
+.landing-container {
   background-color: #0D0D0D;
   color:#fff;
-  min-height: 94vh;
-} 
+  height: 93.2vh;
+}
 
 .photo {
   width: 400px;

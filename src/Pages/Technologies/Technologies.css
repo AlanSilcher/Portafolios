@@ -275,14 +275,10 @@ body {
 }
 /* END Keyframes for the initial animation */
 
-.container {
+.landing-container {
   background-color: #0D0D0D;
-  padding: 16px;
-  display: flex;
-  flex-wrap: wrap;
-  min-height: 91vh; 
-  justify-content: center; 
-  align-items: flex-start; 
+  color:#fff;
+  height: 93.2vh;
 }
 
 .title {

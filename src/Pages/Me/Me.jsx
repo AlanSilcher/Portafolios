@@ -1,5 +1,4 @@
 import React from 'react';
-import styles from './Me.module.css'; 
 import {Container, Grid } from '@material-ui/core';
 import { Link } from 'react-router-dom';
 import Icon from '@mdi/react';
@@ -9,7 +8,7 @@ import './Me.css'
 
 export default function Me() {
     return (
-        <div className={styles.container}>
+        <div className="landing-container">
             <h1 class="title">
                 <span>Sobre mí</span>
             </h1>

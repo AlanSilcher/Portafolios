@@ -1,16 +1,14 @@
-import logo from './Image/Logo-resolucion.png'
+import React from 'react';
+import './Landing.css';
 
 export default function Landing() {
-
-    const styles = {
-        backgroundImage: `url(${logo})`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        height: '94vh'
-    };
-
-    return (
-        <div style={styles}>
-        </div>
-    )
+  return (
+    <div className="landing-container">
+      <p>
+        <div>Alan Silcher</div>
+        <div>Full Stack Developer</div>
+      </p>
+      
+    </div>
+  );
 }

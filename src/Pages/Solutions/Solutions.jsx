@@ -4,7 +4,7 @@ import './Solutions.css'
 export default function Solutions()  { 
     return (
         <div>
-            <div className='container'>
+            <div className="landing-container">
             <div className='title'>¿Qué puedo aportar a su empresa?</div>
             <Container maxWidth="md">
             <h4 className='text'>Como desarrollador full stack, puedo aportar a su empresa mis habilidades técnicas en el desarrollo de aplicaciones web y móviles, así como en la implementación de soluciones de software. Además, mi capacidad para trabajar en equipo y mi entusiasmo por aprender cosas nuevas me convierten en un colaborador ideal para su empresa, ya que puedo aportar nuevas ideas y soluciones innovadoras.</h4>
