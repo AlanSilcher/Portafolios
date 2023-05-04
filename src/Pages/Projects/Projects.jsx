@@ -20,7 +20,7 @@ export default function Projects() {
 
   return (
     <div>
-      <div className="landing-container">
+      <div className="page-container">
       <div className="title" style={{margin: '200px', marginBottom: '0px', marginTop: '0px'}}>Mis proyectos</div>
       <div>
       <Grid container spacing={2} justifyContent="center">

@@ -1,10 +1,4 @@
-.landing-container {
-  background-color: #0D0D0D;
-  color:#fff;
-  height: 93.2vh;
-}
-
-  .title {
+ .title {
     position: relative;
     perspective: 400px;
     padding-left: 17px;

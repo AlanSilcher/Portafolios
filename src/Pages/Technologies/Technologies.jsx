@@ -14,7 +14,7 @@ import './Technologies.css'
 
 export default function Technologies() {
   return (
-    <div className="landing-container">
+    <div className="page-container">
       
       <h1 class="title">
       <span class="title">Mi Experiencia</span>
