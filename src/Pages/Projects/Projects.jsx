@@ -4,11 +4,13 @@ import Link from '@material-ui/core/Link';
 import { useState } from 'react';
 import imagePi from './PI-Food/PI 3.png';
 import imageLinkingFuture from './Linking Future/Linking Future 1.png';
+import imageCounter from './Contador de caracteres/Character Counter.png'
 import './Projects.css'
 
 export default function Projects() {
     const [isFlipped1, setIsFlipped1] = useState(false);
     const [isFlipped2, setIsFlipped2] = useState(false);
+    const [isFlipped3, setIsFlipped3] = useState(false);
 
   const handleCardFlip1 = () => {
     setIsFlipped1(!isFlipped1);
@@ -18,23 +20,28 @@ export default function Projects() {
     setIsFlipped2(!isFlipped2);
   };
 
+  const handleCardFlip3 = () => {
+    setIsFlipped3(!isFlipped3);
+  };
+
   return (
     <div>
       <div className="page-container">
       <div className="title" style={{margin: '200px', marginBottom: '0px', marginTop: '0px'}}>Mis proyectos</div>
       <div>
       <Grid container spacing={2} justifyContent="center">
-        <Grid item>
+        
+      <Grid item>
           <Card
-            onMouseEnter={handleCardFlip1}
-            onMouseLeave={handleCardFlip1}
+            onMouseEnter={handleCardFlip3}
+            onMouseLeave={handleCardFlip3}
             style={{ backgroundColor: '#262624' }}
           >
             <CardActionArea>
-            <Link href="https://github.com/AlanSilcher/PI-Foods" target="_blank" rel="noopener" underline="none">
-              {isFlipped1 ? <CardContent style={{ height: '400px', width: '590px' }}>
+            <Link href="https://main--charactercounter-as.netlify.app/" target="_blank" rel="noopener" underline="none">
+              {isFlipped3 ? <CardContent style={{ height: '400px', width: '590px' }}>
                 <Typography color="#fff">
-                Esta aplicación te permite explorar una variedad de recetas y acceder a información detallada sobre cada una de ellas. Además, puedes filtrar las recetas para encontrar las opciones que mejor se ajusten a tus necesidades y preferencias. Si no encuentras lo que buscas, también puedes crear tus propias recetas y compartirlas con la comunidad de usuarios.
+                Esta web te permite ver en tiempo real la cantidad de caracteres del texto ingresado. Esto se hace mediante un contador en la misma página.
                 </Typography>
               </CardContent> : 
               <div style={{ maxWidth: 590, height: 430 }}>
@@ -42,11 +49,11 @@ export default function Projects() {
               <CardMedia
                 component="img"
                 height="300"
-                image={imagePi}
-                alt="Imagen 1"
+                image={imageCounter}
+                alt="Imagen 3"
               />
                 <Typography variant="h6" component="h3" gutterBottom color="#fff">
-                Aplicación de recetas
+                Contador de Caracteres
                 </Typography>
                 <Typography variant="body2" color="#fff">
                 Me encargué de la realización completa de la web
@@ -57,6 +64,7 @@ export default function Projects() {
             </CardActionArea>
           </Card>
         </Grid>
+
         <Grid item>
           <Card
             onMouseEnter={handleCardFlip2}
@@ -95,6 +103,41 @@ export default function Projects() {
             </CardActionArea>
           </Card>
         </Grid>
+
+        <Grid item>
+          <Card
+            onMouseEnter={handleCardFlip1}
+            onMouseLeave={handleCardFlip1}
+            style={{ backgroundColor: '#262624' }}
+          >
+            <CardActionArea>
+            <Link href="https://github.com/AlanSilcher/PI-Foods" target="_blank" rel="noopener" underline="none">
+              {isFlipped1 ? <CardContent style={{ height: '400px', width: '590px' }}>
+                <Typography color="#fff">
+                Esta aplicación te permite explorar una variedad de recetas y acceder a información detallada sobre cada una de ellas. Además, puedes filtrar las recetas para encontrar las opciones que mejor se ajusten a tus necesidades y preferencias. Si no encuentras lo que buscas, también puedes crear tus propias recetas y compartirlas con la comunidad de usuarios.
+                </Typography>
+              </CardContent> : 
+              <div style={{ maxWidth: 590, height: 430 }}>
+              <CardContent>
+              <CardMedia
+                component="img"
+                height="300"
+                image={imagePi}
+                alt="Imagen 1"
+              />
+                <Typography variant="h6" component="h3" gutterBottom color="#fff">
+                Aplicación de Recetas
+                </Typography>
+                <Typography variant="body2" color="#fff">
+                Me encargué de la realización completa de la web
+                </Typography>
+              </CardContent>
+              </div>}
+              </Link>
+            </CardActionArea>
+          </Card>
+        </Grid>
+
       </Grid>
       </div>
     </div>
