@@ -11,6 +11,8 @@ export default function Projects() {
     const [isFlipped1, setIsFlipped1] = useState(false);
     const [isFlipped2, setIsFlipped2] = useState(false);
     const [isFlipped3, setIsFlipped3] = useState(false);
+    const [isFlipped4, setIsFlipped4] = useState(false);
+    
 
   const handleCardFlip1 = () => {
     setIsFlipped1(!isFlipped1);
@@ -22,6 +24,10 @@ export default function Projects() {
 
   const handleCardFlip3 = () => {
     setIsFlipped3(!isFlipped3);
+  };
+
+  const handleCardFlip4 = () => {
+    setIsFlipped4(!isFlipped4);
   };
 
   return (
@@ -41,7 +47,7 @@ export default function Projects() {
             <Link href="https://main--charactercounter-as.netlify.app/" target="_blank" rel="noopener" underline="none">
               {isFlipped3 ? <CardContent style={{ height: '400px', width: '590px' }}>
                 <Typography color="#fff">
-                Esta web te permite ver en tiempo real la cantidad de caracteres del texto ingresado. Esto se hace mediante un contador en la misma página.
+                Esta página para que puedas ver la cantidad de caracteres que has escrito al instante, sin la necesidad de realizar cálculos manualmente.
                 </Typography>
               </CardContent> : 
               <div style={{ maxWidth: 590, height: 430 }}>
@@ -103,6 +109,41 @@ export default function Projects() {
             </CardActionArea>
           </Card>
         </Grid>
+
+        <Grid item>
+          <Card
+            onMouseEnter={handleCardFlip4}
+            onMouseLeave={handleCardFlip4}
+            style={{ backgroundColor: '#262624' }}
+          >
+            <CardActionArea>
+            <Link href="https://main--memorygameas.netlify.app/" target="_blank" rel="noopener" underline="none">
+              {isFlipped4 ? <CardContent style={{ height: '400px', width: '590px' }}>
+                <Typography color="#fff">
+                En esta página, podrás poner a prueba tu memoria y habilidad para encontrar las parejas de imágenes ocultas detrás de las tarjetas. Espero que te guste tanto como a mí.
+                </Typography>
+              </CardContent> : 
+              <div style={{ maxWidth: 590, height: 430 }}>
+              <CardContent>
+              <CardMedia
+                component="img"
+                height="300"
+                image={imageCounter}
+                alt="Imagen 3"
+              />
+                <Typography variant="h6" component="h3" gutterBottom color="#fff">
+                Juego de Memoria
+                </Typography>
+                <Typography variant="body2" color="#fff">
+                Me encargué de la realización completa de la web
+                </Typography>
+              </CardContent>
+              </div>}
+              </Link>
+            </CardActionArea>
+          </Card>
+        </Grid>
+
 
         <Grid item>
           <Card
