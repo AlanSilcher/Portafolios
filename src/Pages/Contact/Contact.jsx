@@ -47,7 +47,7 @@ export default function Contact() {
             <FaGithub />
           </div>
         </a>
-        <a href="https://alansilcher.github.io/Cv-Alan-Silcher/Cv.pdf" download>
+        <a href="https://alansilcher.github.io/Cv-Alan-Silcher/Cv-Alan-Silcher.pdf" download>
           <div className={styles.icon}>
             <FaFileAlt />
           </div>
