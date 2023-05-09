@@ -5,6 +5,7 @@ import { useState } from 'react';
 import imagePi from './PI-Food/PI 3.png';
 import imageLinkingFuture from './Linking Future/Linking Future 1.png';
 import imageCounter from './Contador de caracteres/Character Counter.png'
+import imageMemory from './Juego de memoria/Memory Game.png'
 import './Projects.css'
 
 export default function Projects() {
@@ -128,7 +129,7 @@ export default function Projects() {
               <CardMedia
                 component="img"
                 height="300"
-                image={imageCounter}
+                image={imageMemory}
                 alt="Imagen 3"
               />
                 <Typography variant="h6" component="h3" gutterBottom color="#fff">
