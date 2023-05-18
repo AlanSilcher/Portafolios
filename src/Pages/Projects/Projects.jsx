@@ -194,7 +194,7 @@ export default function Projects() {
             style={{ backgroundColor: '#262624' }}
           >
             <CardActionArea>
-            <Link href="https://main--fanciful-valkyrie-479441.netlify.app/" target="_blank" rel="noopener" underline="none">
+            <Link href="https://main--foodappas.netlify.app/" target="_blank" rel="noopener" underline="none">
               {isFlipped1 ? <CardContent style={{ height: '400px', width: '590px' }}>
                 <Typography color="#fff">
                 Esta aplicación te permite explorar una variedad de recetas y acceder a información detallada sobre cada una de ellas. Además, puedes filtrar las recetas para encontrar las opciones que mejor se ajusten a tus necesidades y preferencias. Si no encuentras lo que buscas, también puedes crear tus propias recetas y compartirlas con la comunidad de usuarios.
