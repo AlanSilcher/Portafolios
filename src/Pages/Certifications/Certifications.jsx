@@ -8,13 +8,12 @@ export default function Certifications()  {
     return (
         <div className={styles.container}>
             <h1 className={styles.title}>Mis estudios</h1>
-            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '75vh' }}>
+            <div className={styles.cardContainer}>
                 <a href="https://alansilcher.github.io/Cv-Alan-Silcher/Certificado-Henry-Alan-Silcher.pdf" target="_blank" rel="noopener noreferrer" style={{ textDecoration: 'none' }}>
-                    <Card sx={{ maxWidth: 600, bgcolor: '#262624', color: '#fff' }}>
+                    <Card className={styles.card} sx={{ bgcolor: '#262624', color: '#fff', mx: 'auto' }}>
                         <CardActionArea>
                             <CardMedia
                                 component="img"
-                                height="500"
                                 image={henryImage}
                                 alt="Certificado Henry"
                             />
@@ -31,5 +30,5 @@ export default function Certifications()  {
                 </a>
             </div>
         </div>
-    )
+    );
 }

@@ -14,7 +14,20 @@
 
   .container {
     background-color: #0D0D0D;
-    color:#fff;
     min-height: min-content;
     max-height: 93.2vh;
   } 
+
+
+.cardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.card {
+  width: 40%;
+  height: 100%;
+ 
+}

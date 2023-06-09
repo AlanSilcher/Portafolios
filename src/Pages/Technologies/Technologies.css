@@ -1,7 +1,6 @@
-/* Import the Google Font 'Lato' */
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
-/* Container styles */
+
 body {
   background-color: #fff;
   color: #333;
@@ -164,10 +163,7 @@ body {
   stroke-dashoffset: 534 !important;
  
 }
-/* END Circle colors and graphic positions */
 
-
-/* Set the initial values for the animation */
 .chart[data-percent='100'] .outer {
   stroke-dashoffset: 0;
   -webkit-animation: show100 2s;
@@ -273,7 +269,7 @@ body {
     stroke-dashoffset: 401;
   }
 }
-/* END Keyframes for the initial animation */
+
 
 .title {
   position: relative;
