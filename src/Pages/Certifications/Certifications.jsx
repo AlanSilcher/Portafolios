@@ -4,6 +4,7 @@ import { CardActionArea } from '@mui/material';
 import henryImage from './Image/Certificado-Henry.jpg'
 import styles from './Certifications.module.css'
 
+
 export default function Certifications()  { 
     return (
         <div className={styles.container}>
