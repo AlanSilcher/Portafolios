@@ -10,7 +10,6 @@ import Dashboard from './Components/Dashboard/Dashboard';
 import Me from './Pages/Me/Me';
 import Landing from './Pages/Landing/Landing';
 
-
 function App() {
   return (
     <div className="App">
